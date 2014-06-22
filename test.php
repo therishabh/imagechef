@@ -1,4 +1,3 @@
 <?php 
-	echo $_POST['text'];
-	echo "hello";
+	echo "testing";
  ?>
