@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Calibri'; /*a name to be used later*/
+    src: url('font/Calibri.ttf'); /*URL to font*/
+}
+
+body{
+	background: url('../images/background.png');
+}
+a{
+	text-decoration: none !important;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.test{
+	border:1px solid red;
+}
+
+header{
+	border-bottom:6px solid #1D4F81;
+}
+header .logo img{
+	height: 80px;
+	width:100%;
+	padding-top: 5px;
+}
+header .menu{
+	text-align: right;
+	margin-top: 10px;
+	padding-top: 22px;
+	padding-bottom: 22px;
+}
+header .menu a{
+	color:#000;
+}
+header .menu span{
+	font-size: 20px;
+	border-right: 2px solid #E7E7E7;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+header .menu span:nth-child(1){
+	border-left: 2px solid #E7E7E7;
+}
+.mainbody .blog-display{
+	margin-top: 60px;
+}
+.mainbody .blog{
+	padding: 40px;
+	font-size: 20px;
+	border-radius: 5px;
+	border:2px solid #E7E7E7;
+	text-align: center;
+	cursor:pointer;
+}
+.mainbody a{
+	text-decoration: none;
+	color:#3F3F3F;
+}
+.mainbody .blog:hover{
+	border-color: rgba(82, 168, 236, 0.8);
+-webkit-box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px inset, rgba(82, 168, 236, 0.6) 0px 0px 8px;
+box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px inset, rgba(82, 168, 236, 0.6) 0px 0px 8px;
+outline: rgb(0, 0, 0);
+color:#000;
+}
+.heading{
+	text-align: center;
+	font-size: 30px;
+	border-bottom: 4px double #1D4F81;
+	margin-top: 30px;
+}
+.work-div{
+	margin-top: 60px;
+}
+.work-div .upload-image{
+	height: 230px;
+	width:100%;
+}
+.work-div .upload-image img{
+	height: 230px;
+	width:100%;
+	border:2px solid #E7E7E7;
+}
+.work-div .preview-image{
+	height: 230px;
+	width:100%;
+}
+.work-div .preview-image img{
+	height: 230px;
+	width:100%;
+	border:2px solid #E7E7E7;
+}
+.work-div .function-btn{
+	margin-top: 94px;
+}
+
+.submit-btn:hover {
+-webkit-box-shadow: 0px 3px 7px 0px rgba(92,92,92,1);
+-moz-box-shadow: 0px 3px 7px 0px rgba(92,92,92,1);
+box-shadow: 0px 3px 7px 0px rgba(92,92,92,1);
+}
+
+.submit-btn {
+padding: 7px;
+background: #1D4F81;
+width: 100%;
+text-align: center;
+color: #fff;
+font-family: Gilda Display;
+font-size: 18px;
+border: none;
+cursor: pointer;
+}
+
+.frame {
+	background: #fff;
+	border: 2px solid #E7E7E7;
+	overflow: hidden;
+}
+.frame,#preview{
+	width: 300px;
+	height: 200px;
+}
+
+#output{
+	margin-top: -62px;
+}
+#output h2{
+	font-size: 20px;
+}
